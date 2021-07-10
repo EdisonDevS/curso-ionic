@@ -1,3 +1,4 @@
+import { IonicModule } from '@ionic/angular';
 import { CharactersRoutingModule } from './characters-routing.module';
 ;
 import { CharacterDetailComponent } from './character-detail/character-detail.component';
@@ -16,7 +17,8 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     CommonModule,
     CharactersRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    IonicModule
   ]
 })
 export class CharactersModule { }

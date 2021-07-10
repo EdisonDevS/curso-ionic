@@ -20,7 +20,6 @@ export class CharacterListComponent implements OnInit {
 
   async cargarPersonajes() {
     this.personajes = await this.charactersService.getAllCharacters();
-    console.log(this.personajes);
   }
 
 }
